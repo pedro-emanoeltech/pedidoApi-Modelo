@@ -11,7 +11,7 @@ API para gerenciamento de pedidos com autenticação JWT.
 - Endpoints para consultar pedidos por status ou por ID.
 
 ## Estrutura do Projeto
-
+ ```
 Pedidos.Api/
 │
 ├─ Pedidos.Api/ → API principal
@@ -23,7 +23,7 @@ Pedidos.Api/
 ├─ Pedidos.Domain/ → Entidades e regras de negócio (Pedido, ItemPedido, Usuario)
 ├─ Pedidos.Infra/ → Contexto do EF Core e mapeamentos
 └─ Pedidos.Testes/ → Testes unitários xUnit
-
+ ```
 ## Configuração Inicial
 
 ### 1. Clone o repositório:
